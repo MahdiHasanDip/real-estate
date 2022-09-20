@@ -1,0 +1,120 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* ---------------------------------------------------------*/
+
+/* Common style  */
+.container{
+      
+    width:1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Common style end here  */
+
+/* ---------------------------------------------------------*/
+
+/* nav starts here  */
+
+nav{
+    
+    background: rgb(44,139,195);
+    background: linear-gradient(90deg, rgba(44,139,195,1) 0%, rgba(43,134,187,1) 6%, rgba(33,54,68,1) 72%); 
+    width: 100vw;
+    height: 70px;
+   }
+   .nav-container{
+    display: flex;
+
+   }
+
+.nav-brad img{    
+    width: 100%;
+}
+.nav-brad{   
+    width: 70px;
+    
+
+}
+.nav-items{
+    display: flex;  
+    margin-left: auto;     
+
+}
+.nav-item a{ 
+    color: rgb(179, 192, 204);
+    text-decoration: none;
+
+}
+.nav-item {       
+    /* margin-left: 25px; */
+    /* margin:auto 0 auto 30px; */
+    padding: 25px;
+    
+
+
+   
+}
+.nav-item:hover{
+  background-color: rgba(33,54,68,1);  
+  color: rgb(255, 255, 255);
+    
+}
+.nav-item a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* nav ends here  */
+
+/* -------------------------------------------------------------*/
+
+
+
+
+/* Responsiveness  -----------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    
+    .container{         
+        width:100%;
+        margin: 0 auto;
+        height: 100%;
+        
+    }
+    .nav-items{
+        display: flex;  
+        flex-direction: column;             
+    
+    }
+    .nav-item{
+        /* margin-left: 5px;  */
+        width: 100vw;
+        padding: 8px 0px 8px 10px;
+        letter-spacing: 2px;
+    }
+
+    .nav-brad{   
+        display: none;      
+    
+    }
+    nav{
+        height: 160px;
+    }
+  }
