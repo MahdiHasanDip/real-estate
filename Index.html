@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real-Estate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./Style/reset.css">
+    <link rel="stylesheet" href="./Style/nav-style.css">
+    <link rel="stylesheet" href="./Style/home.css">  
     <link rel="stylesheet" href="./Style/Style.css">
 </head>
 <body>
     <nav>
         <div class="container nav-container">
-            <div class="nav-brad">
-                <img src="./Accets/Logo/Logo.png" alt="Brand logo">
+            <div class="brand-container">
+                <div class="nav-brad">
+                    <img src="./Accets/Logo/Logo.png" alt="Brand logo">
+                  
+                    
+                </div>
+                <button type="button" id="btn" class="nav-btn">
+                    <i id="bar" class="fa-solid fa-bars-staggered"></i>
+                </button>
+                
             </div>
-
-            <div class="nav-items">
+            <div id="cont" class="nav-items">
                 <div class="nav-item">
                     <a href="#">Home</a>
                 </div>
@@ -36,7 +48,104 @@
 
         </div>
     </nav>
+<!-- main starts here  -->
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
 
-    
+               <div class="hero-title">
+                <h1> We help people finding their dream house</h1>
+             
+               </div>
+               <div class="hero-text">
+                <p> Having trouble finding a place to stay? You came to the right place! By saving your money, you can find house or apartment  that right for you</p>
+               </div>
+
+
+               <form class="search-form">
+                <input placeholder="Search for apartments or houses to stay" class="search-input" type="text">
+              <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+               </form>
+            </div>
+            
+
+            <div class="hero-banner">
+                <img src="./Accets//Hero-banner/hero-banner.png" alt="">
+            </div>
+
+            
+
+        </section>
+
+
+        <!-- 2nd section  -->
+
+        <section class="second-section">
+             <div class="second-section-title">
+                <h1>Over a decade we’re still exist</h1>
+                <p>You might wondering, what’s look like inside your house. You can choose whether is fulll-furnished or not with our services</p>
+            </div> 
+           
+         <div class="second-section-items">
+                <div class="second-section-item">
+                 <h1>
+                    10+
+                </h1>
+                <p>
+                    Years <br> experience
+                </p>
+            </div>
+                <div class="second-section-item">
+                 <h1>
+                    350+
+                </h1>
+                <p>
+                    Property <br> sold
+                </p>
+            </div>
+                <div class="second-section-item">
+                 <h1>
+                    7,25k
+                </h1>
+                <p>
+                    Loyal <br>
+                    customers
+                </p>
+            </div>
+                <div class="second-section-item">
+                 <h1>
+                    21
+                </h1>
+                <p>
+                    Certified <br> and Awarded
+                </p>
+            </div>
+            </div> 
+        </section>
+
+        <!-- 3rd section  -->
+        
+        <div class="third-section">
+            <div class="third-section-title">
+                <h1></h1>
+                <p></p>
+            </div>
+            <div class="third-section-items">
+                <div class="third-section-item">
+                    
+                </div>
+                <div class="third-section-item">
+
+                </div>
+                <div class="third-section-item">
+
+                </div>
+            </div>
+        </div>
+       
+
+    </main>
+
+    <scripts src="./js/script.js"></scripts>
 </body>
 </html>
