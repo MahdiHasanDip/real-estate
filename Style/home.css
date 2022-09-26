@@ -133,9 +133,71 @@ margin-right: 70px;
 
 /* 3rd section style  */
 .third-section{
+    padding: 25px 0px;
+    width: 100%;
+    height: 750px;
+    background-color: #fcf8f8;
+    text-align: center;
+}
+.third-section-title{
+  
+    margin: 50px 5px;
+}
+.third-section-title h1{
+    font-size:45px ;
+    margin: 25px 0px;
+    color: #5D534A;
+}
+.third-section-title p{
+    font-size:18px ;
+    margin-bottom: 35px;
+    color: #5D534A;
+}
+.third-section-content h3{
+    font-size: 20px;
+    color: #878987;
+}
+.third-section-content p{
+    font-size: 20px;
+    color: #353A40;
+    letter-spacing: 0.08em;
+}
+.third-section-items{
+    
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 25px 150px;
+}
+.third-section-icon{
+    font-size: 45px;
+    color: #878987;
+    background-color: #E9E9E9;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 90px;
+    margin-top: -45px;
     
 }
+.third-section-icon i{
 
+   margin-top: 22%;
+
+}
+.third-section-item{
+    
+    background-color: #D3E0DC;
+    border: 1px solid rgba(0, 0, 0, 0.57);
+    border-radius: 15px;    
+    height: 400px;
+    width: 350px;
+    margin: 0 50px;
+    padding: 0px 55px;
+}
+.third-section-content{
+    margin-top: 85px;
+}
 
 @media screen and (max-width: 992px) {
     .hero-section{
