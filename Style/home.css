@@ -114,6 +114,9 @@ margin: 75px auto;
     display: flex;
     justify-content: center;
     color: #878987;
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
 }
 .second-section-items h1{
     font-size: 35px;
@@ -135,7 +138,7 @@ margin-right: 70px;
 .third-section{
     padding: 25px 0px;
     width: 100%;
-    height: 750px;
+    min-height: 750px;
     background-color: #fcf8f8;
     text-align: center;
 }
@@ -164,10 +167,12 @@ margin-right: 70px;
 }
 .third-section-items{
     
-    width: 100%;
+    
     display: flex;
-    margin: 0 auto;
-    padding: 25px 150px;
+   
+    padding: 25px 0px;
+    justify-content:  space-evenly;
+
 }
 .third-section-icon{
     font-size: 45px;
@@ -190,9 +195,11 @@ margin-right: 70px;
     background-color: #D3E0DC;
     border: 1px solid rgba(0, 0, 0, 0.57);
     border-radius: 15px;    
-    height: 400px;
-    width: 350px;
-    margin: 0 50px;
+    height: 380px;
+    min-width: 300px;
+    max-width: 300px;
+    /* margin: 0 50px; */
+
     padding: 0px 55px;
 }
 .third-section-content{
@@ -224,6 +231,25 @@ margin-right: 70px;
             
             width: 85vw;
             margin-top: 12vh;
+            }
+            .second-section-items{
+                flex-direction: column;
+                
+            }
+            .second-section-item{
+                margin: 5px 0px;
+                /* margin: auto; */
+                justify-content: center;
+                
+            }
+
+            .third-section-items{
+                flex-direction: column;
+                margin-bottom: 75px;
+            }
+            .third-section-item{
+               margin: auto;
+                margin-bottom: 75px;
             }
 
   }
